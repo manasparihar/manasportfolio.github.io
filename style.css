@@ -1,0 +1,52 @@
+.navhead {
+    font-size: xx-large;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.nav-link {
+    font-size: large;
+    color: rgb(0, 0, 0);
+}
+
+.nav-link:hover {
+    color: aqua;
+    box-shadow: inset 200px 0 0 0 #54b3d6;
+}
+
+.bar {
+    padding: 2%;
+}
+
+.social {
+    padding: 5%;
+    padding-left: 13%;
+    font-size: 30px;
+}
+
+.icon1:hover {
+    color: rgb(149, 235, 238)
+}
+
+.icon:hover {
+    color: rgb(37, 112, 209);
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.img {
+    width: 186px;
+    height: 120px;
+}
+
+.card:hover {
+    border: 3px solid rgb(149, 235, 238);
+}
+
+.colabout:hover {
+    border: 10px solid rgb(149, 235, 238);
+}
