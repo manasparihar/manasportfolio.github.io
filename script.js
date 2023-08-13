@@ -1,3 +1,8 @@
+
+var app = document.getElementById('app');
+var Typewriter = new Typewriter(app, {
+    loop: true
+});
 Typewriter.typeString('Web Developer')
     .pauseFor(2500)
     .deleteAll()
