@@ -13,7 +13,13 @@
     color: aqua;
     box-shadow: inset 200px 0 0 0 #54b3d6;
 }
-
+#app {
+    font-size: 50px;
+    background-clip: border-box;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: black; /* Change to black */
+    animation: textclip 2s linear infinite;
 .bar {
     padding: 2%;
 }
