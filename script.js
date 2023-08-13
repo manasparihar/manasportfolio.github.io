@@ -1,3 +1,18 @@
+Typewriter.typeString('Web Developer')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('Web Designer')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('FrontEnd Developer')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('Freelancer')
+    .pauseFor(2500)
+    .deleteAll()
+    .pauseFor(2500)
+    .start();
+
 const animatedHeading = document.querySelector('.animated-heading');
 const animatedHeading2 = document.querySelector('.animated-heading2');
 
